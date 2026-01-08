@@ -1,7 +1,5 @@
-# A rendering project i created to learn graphics programming
-to start you need to ensure you have cmake installed and also Ninja because this is what is used to build the project 
-(you don't have to use ninja you can use the default provided in Visual Studio but 
-that is not what i'm using - i'm also using Zed Editor not Visual Studio).
+# This is a rendering engine i'm building to learn graphics programming
+to start you need to ensure you have cmake installed and also Ninja (optional) to build the project.
 
 ### Quick note (for people using Zed)
 If you're using zed as well (this probably also pertain to vscode users, not sure)
