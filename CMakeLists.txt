@@ -8,7 +8,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_executable(dxrend WIN32
-    source/winmain.cpp
+    source/main.cpp
 )
 
 
@@ -18,7 +18,7 @@ target_include_directories(dxrend PRIVATE
 )
 
 target_link_libraries(dxrend PRIVATE
-    d3d12
+    d3d11
     dxgi
     d3dcompiler
 )
