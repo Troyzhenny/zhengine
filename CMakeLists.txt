@@ -22,3 +22,5 @@ target_link_libraries(dxrend PRIVATE
     dxgi
     d3dcompiler
 )
+
+file(COPY shaders/ DESTINATION ${CMAKE_BINARY_DIR}/shaders/)
