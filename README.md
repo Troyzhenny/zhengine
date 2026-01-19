@@ -1,4 +1,10 @@
-# This is a rendering engine i'm building to learn graphics programming
+# This is a renderer i'm building to learn graphics programming
+### Tech stack
+- DirectX 11
+- Win32
+- Cmake
+- C++
+
 to start you need to ensure you have cmake installed and also Ninja (optional) to build the project.
 
 ### Quick note (for people using Zed)
@@ -9,6 +15,7 @@ This just helps clangd know where all your files and folders are.
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 ```
 
+<br>
 
 ### Get Started (project root)
 ```
@@ -20,6 +27,8 @@ cmake --build build-debug
 cmake -B build-release -DCMAKE_BUILD_TYPE=release -G Ninja
 cmake --build build-release
 ```
+
+<br>
 
 ### Copy compile commands file
 inside your build folder you should see a file named "compile_commands.json"
