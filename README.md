@@ -9,7 +9,7 @@
 To get started building the project, ensure you have cmake installed and optionally Ninja.
 
 ### Quick note (for people using Zed)
-If you're using zed as well (this probably also pertain to vscode users, not sure, But Visual Studio IDE users can skip this step)
+If you're using zed as well (this probably also pertain to vscode users, But Visual Studio IDE users can skip this step)
 you'll need to add this line in CMakeLists.txt
 This just helps clangd know where all your files and folders are.
 ```
@@ -29,7 +29,16 @@ cmake -B build-release -DCMAKE_BUILD_TYPE=release -G Ninja
 cmake --build build-release
 ```
 
-<br>
+### If you're not using ninja
+```
+# For Debug
+cmake -B build-debug -DCMAKE_BUILD_TYPE=Debug
+cmake --build build-debug
+
+# For Release
+cmake -B build-release -DCMAKE_BUILD_TYPE=release
+cmake --build build-release
+```
 
 ### Copy compile commands file
 inside your build folder you should see a file named "compile_commands.json"
