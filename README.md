@@ -1,11 +1,12 @@
 # This is a renderer i'm building to learn graphics programming
+
 ### Tech stack
 - DirectX 11
 - Win32
 - Cmake
 - C++
 
-to start you need to ensure you have cmake installed and also Ninja (optional) to build the project.
+To get started building the project, ensure you have cmake installed and optionally Ninja.
 
 ### Quick note (for people using Zed)
 If you're using zed as well (this probably also pertain to vscode users, not sure, But Visual Studio IDE users can skip this step)
